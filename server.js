@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser =require('body-parser');
 
 //connect db
-mongoose.connect('mongodb://mongocaly:yusuf326@ds143241.mlab.com:43241/caly');
+mongoose.connect('mongodb://mongocaly:password@ds143241.mlab.com:43241/caly');
 
 //express
 var app=express();
